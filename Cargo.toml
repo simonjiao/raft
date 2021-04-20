@@ -1,0 +1,16 @@
+[package]
+name = "raft-rs"
+version = "0.1.0"
+authors = ["simonjiao <simon_jiaoh@hotmail.com>"]
+edition = "2018"
+links = "raft"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = { version = "1.0", features = ["parallel"] }
+bindgen = "0.58"

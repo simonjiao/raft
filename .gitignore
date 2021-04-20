@@ -3,3 +3,9 @@
 *~
 libcraft.so
 libcraft.a
+
+
+# Added by cargo
+
+/target
+Cargo.lock
